@@ -1,0 +1,8 @@
+<ParticleLibrary Name="TheEarth" SandboxVersion="3.8.3.20" ParticleVersion="26">
+ <Particles Name="Earth">
+  <Params Count="400" Continuous="true" ParticleLifeTime="16,Random=0.4" RandomOffset="x=4,y=4,z=4" EmitAngle="180,Random=1" OrientToVelocity="true" Geometry="objects/particlefiles/alnitakstar_large.cgf" Alpha="ParticleAge=(flags=32;t=0.424,v=1;t=0.843,v=1;t=1,flags=4)" DiffuseLighting="0" EmissiveLighting="3" Size="0.07,Random=0.4" Stretch="0.05,Random=0.2" Speed="0.2,Random=0.4" TurbulenceSize="5,Random=0.4" TurbulenceSpeed="14,Random=0.4" RandomAngles="x=30,y=30,z=30" RotationRate="x=4,y=4,z=4" RandomRotationRate="x=4,y=4,z=4" CollideTerrain="true" CollideStaticObjects="true" Density="20" ViewDistanceAdjust="4"/>
+ </Particles>
+ <Particles Name="AttackStance">
+  <Params Count="4000" Continuous="true" ParticleLifeTime="2,Random=0.4" RandomOffset="x=0.08,z=0.08" OffsetRoundness="0.757" OffsetInnerFraction="0.518" EmitAngle="20,Random=1,EmitterStrength=(flags=32;t=0.306,v=1;t=1,v=1)" OrientToVelocity="true" BlendType="Additive" Texture="textures/particles/blur/attackstance.dds" TextureTiling="TilesX=4,TilesY=4,VariantCount=16" Alpha="ParticleAge=(flags=32;t=0.18,v=1;t=0.86,v=1;t=1,flags=4)" Color="(x=0.09,y=0.82,z=0.604),ParticleAge=(t=0.01,v=(x=0.77,y=0.78,z=0.267);t=0.26,v=(x=0.78,y=0.047,z=0.66),flags=4;t=0.992,v=(x=0.843,y=0.03,z=0.03))" DiffuseLighting="0.4" EmissiveLighting="3" Size="0.08,Random=0.4" Stretch="0.04,Random=0.4" Speed="2,Random=0.4" AirResistance="0.01" Turbulence3DSpeed="0.16" TurbulenceSize="1.68" TurbulenceSpeed="-22.4" RotationRate="x=30,y=30,z=30" RandomRotationRate="x=4,y=4,z=4"/>
+ </Particles>
+</ParticleLibrary>

@@ -1,0 +1,8 @@
+<ParticleLibrary Name="MyAIParticle" SandboxVersion="3.5.8.2310" ParticleVersion="24">
+ <Particles Name="MyIA.First">
+  <Params Count="40" Continuous="true" SpawnDelay="2" ParticleLifeTime="40" RandomOffset="x=0.4,y=0.4,z=0.4" Geometry="objects/particle files/star.cgf" Color="EmitterStrength=(t=0.984,v=(x=0.667,y=0.6,z=0.047)),ParticleAge=(t=0.02,v=(x=0.153,y=0.46,z=0.098))" DiffuseBacklighting="1" EmissiveLighting="3" Size="0.05" Speed="0.7,Random=0.4" AirResistance="1.11,Random=0.4,EmitterStrength=(v=0.39;t=1,v=1),ParticleAge=(v=0.34,flags=32;t=1,v=1)" GravityScale="0.01" Turbulence3DSpeed="0.89,Random=0.4" TurbulenceSpeed="25.7,Random=0.4" InitAngles="x=4,y=4,z=4" RandomAngles="x=4,y=4,z=4" RotationRate="x=4,y=4,z=4" RandomRotationRate="x=2,y=2,z=2" PhysicsType="SimpleCollision" CollideTerrain="true" CollideStaticObjects="true" ConfigMin="Medium"/>
+ </Particles>
+ <Particles Name="MyIA.StarPower">
+  <Params Count="40" Continuous="true" ParticleLifeTime="0.7" EmitAngle="180,Random=0.4" OrientToVelocity="true" Geometry="objects/particle files/star.cgf" Color="(x=0.365,y=0.365,z=0.365)" EmissiveLighting="1" Size="0.1" Speed="0.1" AirResistance="0.21" Turbulence3DSpeed="6.04" TurbulenceSpeed="12.9" RandomAngles="x=4,y=4,z=4" RotationRate="x=4,y=4,z=4" RandomRotationRate="x=2,y=2,z=2"/>
+ </Particles>
+</ParticleLibrary>

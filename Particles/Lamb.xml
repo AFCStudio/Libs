@@ -1,0 +1,20 @@
+<ParticleLibrary Name="Lamb" SandboxVersion="3.8.3.20" ParticleVersion="26">
+ <Particles Name="Blur">
+  <Params Count="1" Continuous="true" ParticleLifeTime="2" OrientToVelocity="true" BlendType="Additive" Texture="textures/particles/gradient/radialgradient.dds" Color="(x=0.957,y=0.965,z=0.63)" DiffuseLighting="0" EmissiveLighting="3" Size="ParticleAge=(v=1;t=0.51,v=0.82;t=1,v=1)"/>
+ </Particles>
+ <Particles Name="Blur_Off">
+  <Params Count="1" ParticleLifeTime="2" OrientToVelocity="true" BlendType="Additive" Texture="textures/particles/gradient/radialgradient.dds" Color="(x=0.957,y=0.965,z=0.63)" DiffuseLighting="0" EmissiveLighting="3" Size="ParticleAge=(v=1,flags=32;t=1)"/>
+ </Particles>
+ <Particles Name="Blur_On">
+  <Params Count="1" ParticleLifeTime="2" OrientToVelocity="true" BlendType="Additive" Texture="textures/particles/gradient/radialgradient.dds" Color="(x=0.957,y=0.965,z=0.63)" DiffuseLighting="0" EmissiveLighting="3" Size="ParticleAge=(;t=1,v=1,flags=4)"/>
+ </Particles>
+ <Particles Name="Capturing">
+  <Params Count="200,Random=0.2" Continuous="true" EmitterLifeTime="1" ParticleLifeTime="4,Random=0.4" PositionOffset="y=2" RandomOffset="x=0.2,y=0.2,z=0.2" OrientToVelocity="true" BlendType="Additive" Texture="textures/particles/gradient/radialgradient.dds" Alpha="0.63" Color="(x=0.95,y=0.957,z=0.624),Random=0.4,ParticleAge=(v=(x=0.918,y=0.89,z=0.53);t=1,v=(x=0.365,y=0.82,z=0.89))" DiffuseLighting="7" EmissiveLighting="0.4" Size="0.01,Random=0.4" Stretch="0.07,Random=0.4" Speed="-1,Random=0.4" GravityScale="Random=0.4" Turbulence3DSpeed="0.21,Random=0.4" TurbulenceSpeed="-81.7,Random=0.4" RandomAngles="x=30,y=30,z=30" RotationRate="x=30,y=30,z=30" RandomRotationRate="x=4,y=4,z=4" PhysicsType="SimplePhysics" CollideStaticObjects="true" CollideDynamicObjects="true"/>
+ </Particles>
+ <Particles Name="LightParticles">
+  <Params Count="20" Continuous="true" ParticleLifeTime="20,Random=0.4" RandomOffset="x=0.7,y=0.7,z=0.7" OrientToVelocity="true" BlendType="Additive" Texture="textures/particles/gradient/radialgradient.dds" Alpha="0.751,Random=0.4,ParticleAge=(;t=0.173,v=0.886;t=0.21,v=0.09,flags=32;t=0.263,v=0.545,flags=36;t=0.306,v=0.137;t=0.38,v=1;t=0.424,v=0.047;t=0.514,v=0.953;t=0.557,v=0.09;t=0.604,v=1;t=0.66,v=0.57;t=0.718,v=0.455;t=0.784,v=0.84;t=1,flags=4)" Color="(x=0.957,y=0.965,z=0.63),Random=0.4,ParticleAge=(t=0.004,v=(x=0.918,y=1,z=0.506);t=0.2,v=(x=0.965,y=0.404,z=0.404);t=0.45,v=(x=0.86,y=0.53,z=0.957);t=0.96,v=(x=0.52,y=0.86,z=0.94))" DiffuseLighting="7" EmissiveLighting="3" Size="0.02,Random=0.4,ParticleAge=(v=1;t=0.18,v=0.863;t=0.4,v=1;t=0.592,v=0.796;t=0.765,v=1;t=0.894,v=0.863;t=1,v=1,flags=4)" Stretch="0.1,Random=0.4" Speed="0.01" Turbulence3DSpeed="0.64,Random=0.4" TurbulenceSize="1.06" TurbulenceSpeed="0.2,Random=0.4" RandomAngles="x=30,y=30,z=30" RotationRate="x=4,y=4,z=4" PhysicsType="SimplePhysics" CollideStaticObjects="true" CollideDynamicObjects="true"/>
+ </Particles>
+ <Particles Name="LightOff">
+  <Params Count="80,Random=0.2" Continuous="true" EmitterLifeTime="2" ParticleLifeTime="4,Random=0.4" RandomOffset="x=0.04,y=0.04,z=0.04" OrientToVelocity="true" BlendType="Additive" Texture="textures/particles/gradient/radialgradient.dds" Alpha="0.63" Color="(x=0.95,y=0.957,z=0.624),Random=0.4,ParticleAge=(v=(x=0.918,y=0.89,z=0.53);t=1,v=(x=0.365,y=0.82,z=0.89))" DiffuseLighting="7" EmissiveLighting="0.4" Size="0.02,Random=0.4" Stretch="0.1,Random=0.4,OffsetRatio=1" Speed="-1,Random=0.4" GravityScale="Random=0.4" Turbulence3DSpeed="0.1,Random=0.4" TurbulenceSize="2.62" TurbulenceSpeed="0.7,Random=0.4" RandomAngles="x=30,y=30,z=30" RotationRate="x=30,y=30,z=30" RandomRotationRate="x=4,y=4,z=4"/>
+ </Particles>
+</ParticleLibrary>

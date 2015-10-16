@@ -1,0 +1,10 @@
+<ParticleLibrary Name="MyTest" SandboxVersion="3.5.8.2310" ParticleVersion="24">
+ <Particles Name="MyTest.Lights">
+  <Params Count="20" Continuous="true" ParticleLifeTime="4,Random=0.4" RandomOffset="x=2,y=2,z=2" OrientToVelocity="true" Geometry="objects/particle files/icotest.cgf" DiffuseLighting="0" EmissiveLighting="3" LightSource="Radius=10,Intensity=1,HDRDynamic=3" Size="0.2,Random=0.4" Stretch="0.1,Random=0.4" Speed="2,Random=0.4" AirResistance="1.23,Random=0.4" GravityScale="-0.169" TurbulenceSize="2.38,Random=0.4" TurbulenceSpeed="99.7,Random=0.4" RotationRate="z=30" RandomRotationRate="z=30"/>
+  <Childs>
+   <Particles Name="Sparks">
+    <Params SpawnIndirection="ParentStart" Count="20" Continuous="true" ParticleLifeTime="4" Geometry="objects/particle files/icotest.cgf" Size="0.005" Speed="3.8"/>
+   </Particles>
+  </Childs>
+ </Particles>
+</ParticleLibrary>

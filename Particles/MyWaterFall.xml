@@ -1,0 +1,116 @@
+<ParticleLibrary Name="MyWaterFall" SandboxVersion="3.5.8.2310" ParticleVersion="24">
+ <Particles Name="WaterFall.Narrow">
+  <Params Enabled="false" Count="Random=0.109" Continuous="true" ParticleLifeTime="Random=0.812" RandomOffset="x=1.21,y=1.21,z=1.21" EmitAngle="40,Random=1" OrientToVelocity="true" TextureTiling="TilesX=2,TilesY=2,AnimFramesCount=4" Alpha="ParticleAge=(;t=0.118,v=1,flags=4;t=0.44,v=1;t=0.99,flags=4)" Color="(x=0.992,y=0.992,z=0.992),ParticleAge=(t=0.016,v=(x=0.63,y=0.63,z=0.63);t=0.996,v=(x=0.96,y=0.976,z=0.98))" DiffuseLighting="0" Size="Random=0.356,ParticleAge=(;t=1,v=1,flags=4)" Stretch="0.06" Speed="12,Random=0.713" AirResistance="1.23" GravityScale="3"/>
+  <Childs>
+   <Particles Name="flow">
+    <Params Count="50" Continuous="true" ParticleLifeTime="4,Random=0.267" RandomOffset="x=1" EmitAngle="Random=1" Texture="textures/sprites/water/waterfoam_a.tif" TextureTiling="TilesX=2,TilesY=2,VariantCount=4" SoftParticle="true" Alpha="0.3,ParticleAge=(;t=0.086,v=1;t=0.255,v=1;t=0.98,v=0.02)" Color="(x=0.353,y=0.353,z=0.353)" DiffuseBacklighting="0.357" Size="1.5,Random=0.2,ParticleAge=(v=0.5,flags=32;t=1,v=1)" Stretch="0.5,ParticleAge=(;t=0.1;t=0.816,v=1;t=0.996,flags=4)" Speed="6,Random=0.713" AirResistance="1,RotationalDragScale=0" GravityScale="2" RandomAngles="y=180" RandomRotationRate="y=32"/>
+   </Particles>
+   <Particles Name="refraction">
+    <Params Count="100" Continuous="true" ParticleLifeTime="4" RandomOffset="x=1" EmitAngle="5" Texture="textures/sprites/water/water_tiled_a.tif" TextureTiling="TilesX=2,TilesY=2,VariantCount=4" Material="materials/particle/water_deformation_a" SoftParticle="true" Alpha="0.3,ParticleAge=(;t=0.082,v=1;t=0.255,v=1;t=1)" Color="(x=0.64,y=0.64,z=0.64)" DiffuseBacklighting="0.5" Size="1.5,Random=0.25,ParticleAge=(v=0.204,flags=32;t=1,v=1)" Stretch="0.5,Random=0.25,ParticleAge=(flags=32;t=0.18,v=0.067;t=0.79,v=1;t=1,v=1)" Speed="6" AirResistance="1,Random=0.25,RotationalDragScale=0" GravityScale="1,Random=0.5" RandomAngles="y=180" RandomRotationRate="y=35" Thickness="0"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="WaterFall.WideFromNarrow">
+  <Params Enabled="false" Count="Random=0.109" Continuous="true" ParticleLifeTime="Random=0.812" EmitAngle="40,Random=1" OrientToVelocity="true" TextureTiling="TilesX=2,TilesY=2,AnimFramesCount=4" Alpha="ParticleAge=(;t=0.118,v=1,flags=4;t=0.44,v=1;t=0.99,flags=4)" Color="(x=0.992,y=0.992,z=0.992),ParticleAge=(t=0.016,v=(x=0.63,y=0.63,z=0.63);t=0.996,v=(x=0.96,y=0.976,z=0.98))" DiffuseLighting="0" Size="Random=0.356,ParticleAge=(;t=1,v=1,flags=4)" Stretch="0.06" Speed="12,Random=0.713" AirResistance="1.23" GravityScale="3"/>
+  <Childs>
+   <Particles Name="flow">
+    <Params Count="150" Continuous="true" ParticleLifeTime="6,Random=0.267" RandomOffset="x=8" EmitAngle="Random=1" Texture="textures/sprites/water/waterfoam_a.tif" TextureTiling="TilesX=2,TilesY=2,VariantCount=4" SoftParticle="true" Alpha="0.3,ParticleAge=(;t=0.086,v=1;t=0.255,v=1;t=0.98,v=0.02)" Color="(x=0.353,y=0.353,z=0.353)" DiffuseBacklighting="0.357" Size="3,Random=0.2,ParticleAge=(v=0.5,flags=32;t=1,v=1)" Stretch="1,ParticleAge=(;t=0.1;t=0.816,v=1;t=0.996,flags=4)" Speed="6,Random=0.713" AirResistance="1,RotationalDragScale=0" GravityScale="2" RandomAngles="y=180" RandomRotationRate="y=32"/>
+   </Particles>
+   <Particles Name="refraction">
+    <Params Count="300" Continuous="true" ParticleLifeTime="6" RandomOffset="x=8" EmitAngle="5" Texture="textures/sprites/water/water_tiled_a.tif" TextureTiling="TilesX=2,TilesY=2,VariantCount=4" Material="materials/particle/water_deformation_a" SoftParticle="true" Alpha="0.3,ParticleAge=(;t=0.082,v=1;t=0.255,v=1;t=1)" Color="(x=0.64,y=0.64,z=0.64)" DiffuseBacklighting="0.5" Size="3,Random=0.25,ParticleAge=(v=0.204,flags=32;t=1,v=1)" Stretch="1,Random=0.25,ParticleAge=(flags=32;t=0.18,v=0.067;t=0.79,v=1;t=1,v=1)" Speed="6" AirResistance="1,Random=0.25,RotationalDragScale=0" GravityScale="1,Random=0.5" RandomAngles="y=180" RandomRotationRate="y=35" Thickness="0"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="WaterFall.Medium">
+  <Params Enabled="false" Count="Random=0.109" Continuous="true" ParticleLifeTime="Random=0.812" EmitAngle="40,Random=1" OrientToVelocity="true" TextureTiling="TilesX=2,TilesY=2,AnimFramesCount=4" Alpha="ParticleAge=(;t=0.118,v=1,flags=4;t=0.44,v=1;t=0.99,flags=4)" Color="(x=0.992,y=0.992,z=0.992),ParticleAge=(t=0.016,v=(x=0.63,y=0.63,z=0.63);t=0.996,v=(x=0.96,y=0.976,z=0.98))" DiffuseLighting="0" Size="Random=0.356,ParticleAge=(;t=1,v=1,flags=4)" Stretch="0.06" Speed="12,Random=0.713" AirResistance="1.23" GravityScale="3"/>
+  <Childs>
+   <Particles Name="flow">
+    <Params Count="140" Continuous="true" ParticleLifeTime="6,Random=0.267" RandomOffset="x=4" EmitAngle="Random=1" Texture="textures/sprites/water/waterfoam_a.tif" TextureTiling="TilesX=2,TilesY=2,VariantCount=4" SoftParticle="true" Alpha="0.3,ParticleAge=(;t=0.086,v=1;t=0.255,v=1;t=0.98,v=0.02)" Color="(x=0.353,y=0.353,z=0.353)" DiffuseBacklighting="0.357" Size="3,Random=0.2,ParticleAge=(v=0.5,flags=32;t=1,v=1)" Stretch="1,ParticleAge=(;t=0.1;t=0.816,v=1;t=0.996,flags=4)" Speed="6,Random=0.713" AirResistance="1,RotationalDragScale=0" GravityScale="2" RandomAngles="y=180" RandomRotationRate="y=32"/>
+   </Particles>
+   <Particles Name="refraction">
+    <Params Count="240" Continuous="true" ParticleLifeTime="6" RandomOffset="x=4" EmitAngle="5" Texture="textures/sprites/water/water_tiled_a.tif" TextureTiling="TilesX=2,TilesY=2,VariantCount=4" Material="materials/particle/water_deformation_a" SoftParticle="true" Alpha="0.3,ParticleAge=(;t=0.082,v=1;t=0.255,v=1;t=1)" Color="(x=0.64,y=0.64,z=0.64)" DiffuseBacklighting="0.5" Size="3,Random=0.25,ParticleAge=(v=0.204,flags=32;t=1,v=1)" Stretch="1,Random=0.25,ParticleAge=(flags=32;t=0.18,v=0.067;t=0.79,v=1;t=1,v=1)" Speed="6" AirResistance="1,Random=0.25,RotationalDragScale=0" GravityScale="1,Random=0.5" RandomAngles="y=180" RandomRotationRate="y=35" Thickness="0"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="WaterFall.Breakup">
+  <Params Enabled="false" RandomOffset="x=2,z=2" Texture="0" TextureTiling="TilesX=2,TilesY=2,VariantCount=4" SoftParticle="true" Color="ParticleAge=(t=0.086,v=(x=0.804,y=0.804,z=0.804))" DiffuseLighting="0" Size="0" SortOffset="-0.01"/>
+  <Childs>
+   <Particles Name="side_aHard">
+    <Params Count="12,Random=0.366" Continuous="true" ParticleLifeTime="1" RandomOffset="x=1,z=1" FocusAngle="90" EmitAngle="5" Texture="textures/sprites/water/waterfoam_a.tif" TextureTiling="TilesX=2,TilesY=2,VariantCount=4" SoftParticle="true" Alpha="Random=0.089,ParticleAge=(t=0.004,flags=32;t=0.545,v=1;t=0.996,v=0.047)" Color="(x=0.32,y=0.38,z=0.39),ParticleAge=(t=0.004,v=(x=0.77,y=0.784,z=0.77);t=1,v=(x=0.737,y=0.776,z=0.81))" DiffuseBacklighting="0.5" Size="0.6,Random=0.337,ParticleAge=(v=0.682,flags=32;t=0.447,v=1;t=0.99,v=0.75)" Speed="4" GravityScale="0.5,Random=0.426,ParticleAge=(;t=0.584,v=0.34;t=1,v=1)" RandomAngles="y=90" RotationRate="y=60" RandomRotationRate="y=40" CameraMaxDistance="20" SortOffset="-0.01"/>
+   </Particles>
+   <Particles Name="side_bSoft">
+    <Params Count="88,Random=0.366" Continuous="true" ParticleLifeTime="1" RandomOffset="x=3.2,y=0.1,z=2" FocusAngle="90" EmitAngle="5" Texture="textures/sprites/water/water_tiled_a.tif" TextureTiling="TilesX=2,TilesY=2,VariantCount=4" SoftParticle="true" Alpha="Random=0.089,ParticleAge=(v=0.64,flags=32;t=0.545,v=1;t=1)" Color="(x=0.494,y=0.537,z=0.54),ParticleAge=(t=0.004,v=(x=0.77,y=0.784,z=0.77);t=1,v=(x=0.737,y=0.776,z=0.81))" DiffuseBacklighting="0.5" Size="Random=0.446,ParticleAge=(t=0.004,v=0.318,flags=32;t=1,v=1)" Stretch="0.15" Speed="3.2" GravityScale="0.059,Random=0.426,ParticleAge=(;t=0.584,v=0.34;t=1,v=1)" RandomAngles="y=90" RotationRate="y=60" RandomRotationRate="y=40" SortOffset="-0.03"/>
+   </Particles>
+   <Particles Name="haze0">
+    <Params Count="5,Random=0.366" Continuous="true" ParticleLifeTime="6" PositionOffset="x=0.3,y=0.3" RandomOffset="x=2,z=2" FocusAngle="90" EmitAngle="10,Random=0.178" Texture="textures/sprites/smoke/smoke_tiled_a.tif" TextureTiling="TilesX=2,TilesY=2,VariantCount=4" SoftParticle="true" Alpha="0.505,Random=0.04,ParticleAge=(flags=32;t=0.51,v=0.98;t=0.99,flags=4)" Color="ParticleAge=(t=0.004,v=(x=0.77,y=0.784,z=0.77);t=1,v=(x=0.737,y=0.776,z=0.81))" DiffuseBacklighting="0.5" Size="4.04,ParticleAge=(v=0.43,flags=32;t=0.514,v=0.933;t=1,v=0.816,flags=4)" Speed="0.5,Random=0.515" GravityScale="ParticleAge=(;t=1,v=1)" RandomAngles="y=90" RotationRate="y=15" RandomRotationRate="y=15" CameraMaxDistance="50" SortOffset="-0.01" FillRateCost="0"/>
+   </Particles>
+   <Particles Name="splash">
+    <Params Count="8" Continuous="true" EmitterLifeTime="Random=0.069" ParticleLifeTime="1,Random=0.416" PositionOffset="y=0.4" RandomOffset="x=2.3,y=0.3,z=2.3" FocusAngle="40" EmitAngle="5" Texture="textures/sprites/water/water_b.tif" SoftParticle="true" Alpha="0.25,ParticleAge=(flags=32;t=0.32,v=1;t=1,v=0.02)" Color="(x=0.32,y=0.38,z=0.39)" DiffuseBacklighting="0.3" Size="Random=0.25,ParticleAge=(v=0.545,flags=32;t=1,v=0.98)" Speed="4" AirResistance="0.2" GravityScale="1" RandomAngles="y=90" RotationRate="y=30" RandomRotationRate="y=8" CameraMaxDistance="30"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="WaterFall.BreakUpSoft">
+  <Params Enabled="false" RandomOffset="x=2,z=2" Texture="0" TextureTiling="TilesX=2,TilesY=2,VariantCount=4" SoftParticle="true" Color="ParticleAge=(t=0.086,v=(x=0.804,y=0.804,z=0.804))" DiffuseLighting="0" Size="0" SortOffset="-0.01"/>
+  <Childs>
+   <Particles Name="side_aHard">
+    <Params Count="12,Random=0.366" Continuous="true" ParticleLifeTime="1" RandomOffset="x=1,z=1" FocusAngle="90" EmitAngle="5" Texture="textures/sprites/water/waterfoam_a.tif" TextureTiling="TilesX=2,TilesY=2,VariantCount=4" SoftParticle="true" Alpha="Random=0.089,ParticleAge=(t=0.004,flags=32;t=0.545,v=1;t=0.996,v=0.047)" Color="ParticleAge=(t=0.004,v=(x=0.77,y=0.784,z=0.77);t=1,v=(x=0.737,y=0.776,z=0.81))" DiffuseBacklighting="0.5" EmissiveLighting="0.15" Size="0.6,Random=0.337,ParticleAge=(v=0.682,flags=32;t=0.447,v=1;t=0.99,v=0.75)" Speed="4" GravityScale="0.5,Random=0.426,ParticleAge=(;t=0.584,v=0.34;t=1,v=1)" RandomAngles="y=90" RotationRate="y=60" RandomRotationRate="y=40" CameraMaxDistance="20" SortOffset="-0.01"/>
+   </Particles>
+   <Particles Name="side_bSoft">
+    <Params Count="88,Random=0.366" Continuous="true" ParticleLifeTime="1" RandomOffset="x=3.2,y=0.1,z=2" FocusAngle="90" EmitAngle="5" Texture="textures/sprites/water/waterfoam_a.tif" TextureTiling="TilesX=2,TilesY=2,VariantCount=4" SoftParticle="true" Alpha="Random=0.089,ParticleAge=(v=0.64,flags=32;t=0.545,v=1;t=1)" Color="ParticleAge=(t=0.004,v=(x=0.77,y=0.784,z=0.77);t=1,v=(x=0.737,y=0.776,z=0.81))" DiffuseBacklighting="0.5" EmissiveLighting="0.15" Size="Random=0.446,ParticleAge=(t=0.004,v=0.318,flags=32;t=0.447,v=1;t=1,v=0.294)" Stretch="0.15" Speed="3.2" GravityScale="0.059,Random=0.426,ParticleAge=(;t=0.584,v=0.34;t=1,v=1)" RandomAngles="y=90" RotationRate="y=60" RandomRotationRate="y=40" SortOffset="-0.01"/>
+   </Particles>
+   <Particles Name="haze0">
+    <Params Count="5,Random=0.366" Continuous="true" ParticleLifeTime="6" PositionOffset="x=0.3,y=0.3" RandomOffset="x=2,z=2" FocusAngle="90" EmitAngle="10,Random=0.178" Texture="textures/sprites/smoke/smoke_tiled_a.tif" TextureTiling="TilesX=2,TilesY=2,VariantCount=4" SoftParticle="true" Alpha="0.505,Random=0.04,ParticleAge=(flags=32;t=0.51,v=0.98;t=0.99,flags=4)" Color="ParticleAge=(t=0.004,v=(x=0.77,y=0.784,z=0.77);t=1,v=(x=0.737,y=0.776,z=0.81))" DiffuseBacklighting="0.5" EmissiveLighting="0.15" Size="4.04,ParticleAge=(v=0.43,flags=32;t=0.514,v=0.933;t=1,v=0.816,flags=4)" Speed="0.5,Random=0.515" GravityScale="ParticleAge=(;t=1,v=1)" RandomAngles="y=90" RotationRate="y=15" RandomRotationRate="y=15" CameraMaxDistance="50" SortOffset="-0.01" FillRateCost="0"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="WaterFall.Bottom_Small">
+  <Params Count="7" Continuous="true" ParticleLifeTime="0.6,Random=0.1304348" PositionOffset="z=-1" EmitAngle="96.8,Random=1" Texture="textures/sprites/water/water_b.tif" SoftParticle="true" Alpha="0.168,ParticleAge=(t=0.5,v=1;t=1)" DiffuseBacklighting="1" Size="6.6297,Random=0.1869919,ParticleAge=(;t=0.47,v=1)" Speed="2.9" GravityScale="0.158" CameraMaxDistance="500"/>
+ </Particles>
+ <Particles Name="WaterFall.WideFN_Small_Mini">
+  <Params Enabled="false" Count="Random=0.109" Continuous="true" ParticleLifeTime="Random=0.812" EmitAngle="40,Random=1" OrientToVelocity="true" TextureTiling="TilesX=2,TilesY=2,AnimFramesCount=4" Alpha="ParticleAge=(;t=0.118,v=1,flags=4;t=0.44,v=1;t=0.99,flags=4)" Color="(x=0.992,y=0.992,z=0.992),ParticleAge=(t=0.016,v=(x=0.63,y=0.63,z=0.63);t=0.996,v=(x=0.96,y=0.976,z=0.98))" DiffuseLighting="0" Size="Random=0.356,ParticleAge=(;t=1,v=1,flags=4)" Stretch="0.06" Speed="12,Random=0.713" AirResistance="1.23" GravityScale="3"/>
+  <Childs>
+   <Particles Name="flow">
+    <Params Count="40" Continuous="true" ParticleLifeTime="2,Random=0.267" RandomOffset="x=8" EmitAngle="Random=1" Texture="textures/sprites/water/waterfoam_a.tif" TextureTiling="TilesX=2,TilesY=2,VariantCount=4" SoftParticle="true" Alpha="0.3,ParticleAge=(;t=0.086,v=1;t=0.255,v=1;t=0.98,v=0.02)" Color="(x=0.353,y=0.353,z=0.353)" DiffuseBacklighting="0.357" Size="3,Random=0.2,ParticleAge=(v=0.5,flags=32;t=1,v=1)" Stretch="1,ParticleAge=(;t=0.1;t=0.816,v=1;t=0.996,flags=4)" Speed="6,Random=0.713" AirResistance="1,RotationalDragScale=0" GravityScale="2" RandomAngles="y=180" RandomRotationRate="y=32"/>
+   </Particles>
+   <Particles Name="refraction">
+    <Params Count="100" Continuous="true" ParticleLifeTime="2.4" RandomOffset="x=8" EmitAngle="5" Texture="textures/sprites/water/water_tiled_a.tif" TextureTiling="TilesX=2,TilesY=2,VariantCount=4" Material="materials/particle/water_deformation_a" SoftParticle="true" Alpha="0.3,ParticleAge=(;t=0.082,v=1;t=0.255,v=1;t=1)" Color="(x=0.64,y=0.64,z=0.64)" DiffuseBacklighting="0.5" Size="3,Random=0.25,ParticleAge=(v=0.204,flags=32;t=1,v=1)" Stretch="1,Random=0.25,ParticleAge=(flags=32;t=0.18,v=0.067;t=0.79,v=1;t=1,v=1)" Speed="6" AirResistance="1,Random=0.25,RotationalDragScale=0" GravityScale="1,Random=0.5" RandomAngles="y=180" RandomRotationRate="y=35" Thickness="0"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="WaterFall.WideFN_Small">
+  <Params Enabled="false" Count="Random=0.109" Continuous="true" ParticleLifeTime="Random=0.812" EmitAngle="40,Random=1" OrientToVelocity="true" TextureTiling="TilesX=2,TilesY=2,AnimFramesCount=4" Alpha="ParticleAge=(;t=0.118,v=1,flags=4;t=0.44,v=1;t=0.99,flags=4)" Color="(x=0.992,y=0.992,z=0.992),ParticleAge=(t=0.016,v=(x=0.63,y=0.63,z=0.63);t=0.996,v=(x=0.96,y=0.976,z=0.98))" DiffuseLighting="0" Size="Random=0.356,ParticleAge=(;t=1,v=1,flags=4)" Stretch="0.06" Speed="12,Random=0.713" AirResistance="1.23" GravityScale="3"/>
+  <Childs>
+   <Particles Name="flow">
+    <Params Count="100" Continuous="true" ParticleLifeTime="2.4,Random=0.267" RandomOffset="x=8" EmitAngle="Random=1" Texture="textures/sprites/water/waterfoam_a.tif" TextureTiling="TilesX=2,TilesY=2,VariantCount=4" SoftParticle="true" Alpha="0.3,ParticleAge=(;t=0.086,v=1;t=0.255,v=1;t=0.98,v=0.02)" Color="(x=0.353,y=0.353,z=0.353)" DiffuseBacklighting="0.357" Size="3,Random=0.2,ParticleAge=(v=0.5,flags=32;t=1,v=1)" Stretch="1,ParticleAge=(;t=0.1;t=0.816,v=1;t=0.996,flags=4)" Speed="6,Random=0.713" AirResistance="1,RotationalDragScale=0" GravityScale="2" RandomAngles="y=180" RandomRotationRate="y=32"/>
+   </Particles>
+   <Particles Name="refraction">
+    <Params Count="200" Continuous="true" ParticleLifeTime="2.4" RandomOffset="x=8" EmitAngle="5" Texture="textures/sprites/water/water_tiled_a.tif" TextureTiling="TilesX=2,TilesY=2,VariantCount=4" Material="materials/particle/water_deformation_a" SoftParticle="true" Alpha="0.3,ParticleAge=(;t=0.082,v=1;t=0.255,v=1;t=1)" Color="(x=0.64,y=0.64,z=0.64)" DiffuseBacklighting="0.5" Size="3,Random=0.25,ParticleAge=(v=0.204,flags=32;t=1,v=1)" Stretch="1,Random=0.25,ParticleAge=(flags=32;t=0.18,v=0.067;t=0.79,v=1;t=1,v=1)" Speed="6" AirResistance="1,Random=0.25,RotationalDragScale=0" GravityScale="1,Random=0.5" RandomAngles="y=180" RandomRotationRate="y=35" Thickness="0"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="WaterFall.Narrow_Mini">
+  <Params Enabled="false" Count="Random=0.109" Continuous="true" ParticleLifeTime="Random=0.812" RandomOffset="x=1.21,y=1.21,z=1.21" EmitAngle="40,Random=1" OrientToVelocity="true" TextureTiling="TilesX=2,TilesY=2,AnimFramesCount=4" Alpha="ParticleAge=(;t=0.118,v=1,flags=4;t=0.44,v=1;t=0.99,flags=4)" Color="(x=0.992,y=0.992,z=0.992),ParticleAge=(t=0.016,v=(x=0.63,y=0.63,z=0.63);t=0.996,v=(x=0.96,y=0.976,z=0.98))" DiffuseLighting="0" Size="Random=0.356,ParticleAge=(;t=1,v=1,flags=4)" Stretch="0.06" Speed="12,Random=0.713" AirResistance="1.23" GravityScale="3"/>
+  <Childs>
+   <Particles Name="flow">
+    <Params Count="25" Continuous="true" ParticleLifeTime="2.4,Random=0.267" RandomOffset="x=1" EmitAngle="Random=1" Texture="textures/sprites/water/waterfoam_a.tif" TextureTiling="TilesX=2,TilesY=2,VariantCount=4" SoftParticle="true" Alpha="0.3,ParticleAge=(;t=0.086,v=1;t=0.255,v=1;t=0.98,v=0.02)" Color="(x=0.353,y=0.353,z=0.353)" DiffuseBacklighting="0.357" Size="1.5,Random=0.2,ParticleAge=(v=0.5,flags=32;t=1,v=1)" Stretch="0.5,ParticleAge=(;t=0.1;t=0.816,v=1;t=0.996,flags=4)" Speed="6,Random=0.713" AirResistance="1,RotationalDragScale=0" GravityScale="2" RandomAngles="y=180" RandomRotationRate="y=32"/>
+   </Particles>
+   <Particles Name="refraction">
+    <Params Count="5" Continuous="true" ParticleLifeTime="2" RandomOffset="x=1" EmitAngle="5" Texture="textures/sprites/water/water_tiled_a.tif" TextureTiling="TilesX=2,TilesY=2,VariantCount=4" Material="materials/particle/water_deformation_a" SoftParticle="true" Alpha="0.3,ParticleAge=(;t=0.082,v=1;t=0.255,v=1;t=1)" Color="(x=0.64,y=0.64,z=0.64)" DiffuseBacklighting="0.5" Size="1.5,Random=0.25,ParticleAge=(v=0.204,flags=32;t=1,v=1)" Stretch="0.5,Random=0.25,ParticleAge=(flags=32;t=0.18,v=0.067;t=0.79,v=1;t=1,v=1)" Speed="6" AirResistance="1,Random=0.25,RotationalDragScale=0" GravityScale="1,Random=0.5" RandomAngles="y=180" RandomRotationRate="y=35" Thickness="0"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="WaterFall.NarrowLong">
+  <Params Enabled="false" Count="Random=0.109" Continuous="true" ParticleLifeTime="Random=0.812" RandomOffset="x=1.21,y=1.21,z=1.21" EmitAngle="40,Random=1" OrientToVelocity="true" TextureTiling="TilesX=2,TilesY=2,AnimFramesCount=4" Alpha="ParticleAge=(;t=0.118,v=1,flags=4;t=0.44,v=1;t=0.99,flags=4)" Color="(x=0.992,y=0.992,z=0.992),ParticleAge=(t=0.016,v=(x=0.63,y=0.63,z=0.63);t=0.996,v=(x=0.96,y=0.976,z=0.98))" DiffuseLighting="0" Size="Random=0.356,ParticleAge=(;t=1,v=1,flags=4)" Stretch="0.06" Speed="12,Random=0.713" AirResistance="1.23" GravityScale="3"/>
+  <Childs>
+   <Particles Name="flow">
+    <Params Count="75" Continuous="true" ParticleLifeTime="6,Random=0.267" RandomOffset="x=1" EmitAngle="Random=1" Texture="textures/sprites/water/waterfoam_a.tif" TextureTiling="TilesX=2,TilesY=2,VariantCount=4" SoftParticle="true" Alpha="0.3,ParticleAge=(;t=0.086,v=1;t=0.255,v=1;t=0.98,v=0.02)" Color="(x=0.353,y=0.353,z=0.353)" DiffuseBacklighting="0.357" Size="1.5,Random=0.2,ParticleAge=(v=0.5,flags=32;t=1,v=1)" Stretch="0.5,ParticleAge=(;t=0.1;t=0.816,v=1;t=0.996,flags=4)" Speed="6,Random=0.713" AirResistance="1,RotationalDragScale=0" GravityScale="2" RandomAngles="y=180" RandomRotationRate="y=32"/>
+   </Particles>
+   <Particles Name="refraction">
+    <Params Count="150" Continuous="true" ParticleLifeTime="6" RandomOffset="x=1" EmitAngle="5" Texture="textures/sprites/water/water_tiled_a.tif" TextureTiling="TilesX=2,TilesY=2,VariantCount=4" Material="materials/particle/water_deformation_a" SoftParticle="true" Alpha="0.3,ParticleAge=(;t=0.082,v=1;t=0.255,v=1;t=1)" Color="(x=0.64,y=0.64,z=0.64)" DiffuseBacklighting="0.5" Size="1.5,Random=0.25,ParticleAge=(v=0.204,flags=32;t=1,v=1)" Stretch="0.5,Random=0.25,ParticleAge=(flags=32;t=0.18,v=0.067;t=0.79,v=1;t=1,v=1)" Speed="6" AirResistance="1,Random=0.25,RotationalDragScale=0" GravityScale="1,Random=0.5" RandomAngles="y=180" RandomRotationRate="y=35" Thickness="0"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="WaterFall.BottomL">
+  <Params Count="14" Continuous="true" ParticleLifeTime="1.4,Random=0.1304348" PositionOffset="z=-1" EmitAngle="180,Random=1" Texture="textures/sprites/water/water_b.tif" SoftParticle="true" Alpha="0.168,ParticleAge=(t=0.5,v=1;t=1)" DiffuseBacklighting="1" Size="8.75,Random=0.1869919,ParticleAge=(;t=0.47,v=1)" Stretch="0.2,Random=0.4" Speed="2.9" GravityScale="0.158" CameraMaxDistance="500"/>
+ </Particles>
+</ParticleLibrary>
