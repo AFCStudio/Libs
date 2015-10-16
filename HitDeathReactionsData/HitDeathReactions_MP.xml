@@ -84,6 +84,38 @@
 	/>
 
 	<HitReactionParams>
+        <HitReactionParam manqReaction="0">
+			<ValidationSection>
+				<Validation>
+					<AllowedHitTypes>
+                        <HitType value="meleeRight" />
+                    </AllowedHitTypes>
+				</Validation>
+			</ValidationSection>
+		</HitReactionParam>
+        
+        <HitReactionParam manqReaction="0">
+			<ValidationSection>
+				<Validation>
+					<AllowedHitTypes>
+                        <HitType value="meleeLeft" />
+                    </AllowedHitTypes>
+				</Validation>
+			</ValidationSection>
+		</HitReactionParam>
+        
+        <HitReactionParam>
+			<AllowedHitTypes>
+				<HitType value="collision" />
+			</AllowedHitTypes>
+		</HitReactionParam>
+        
+        <HitReactionParam manqReaction="0">
+			<AllowedHitTypes>
+				<HitType value="melee" />
+			</AllowedHitTypes>
+		</HitReactionParam>
+    
 	</HitReactionParams>
 	
 	<DeathReactionParams>
