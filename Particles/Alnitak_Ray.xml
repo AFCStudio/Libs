@@ -1,4 +1,4 @@
-<ParticleLibrary Name="Alnitak_Ray" SandboxVersion="3.8.3.20" ParticleVersion="26">
+<ParticleLibrary Name="Alnitak_Ray" SandboxVersion="3.8.5.14" ParticleVersion="26">
  <Particles Name="Alnitak_Ray_Particles">
   <Params Count="60,Random=0.4" Continuous="true" ParticleLifeTime="0.4,Random=0.4" OrientToVelocity="true" Curvature="0" BlendType="Additive" Texture="textures/particles/gradient/alnitak.dds" TextureTiling="TilesX=2,TilesY=2" Alpha="0.671,ParticleAge=(v=1;t=0.733,v=0.61;t=1,flags=4)" DiffuseLighting="14" EmissiveLighting="7" Size="0.05,Random=0.2" Stretch="0.05,Random=0.2" Speed="2" GravityScale="0.027" Turbulence3DSpeed="5.14" TurbulenceSize="0.48" TurbulenceSpeed="9.9" PhysicsType="SimpleCollision" CollideTerrain="true" CollideStaticObjects="true" CollideDynamicObjects="true"/>
   <Childs>
@@ -7,6 +7,9 @@
    </Particles>
    <Particles Name="Blur_Small">
     <Params Count="1" Continuous="true" ParticleLifeTime="2" OrientToVelocity="true" BlendType="Additive" Texture="textures/particles/gradient/radialgradient.dds" Alpha="0.102" Color="(x=0.024,y=0.09,z=0.86)" EmissiveLighting="3" Size="0.7,ParticleAge=(v=1;t=0.51,v=0.82;t=1,v=1)"/>
+   </Particles>
+   <Particles Name="BlurTrace">
+    <Params Count="80" Continuous="true" ParticleLifeTime="0.4" PositionOffset="y=0.1" BlendType="Additive" Texture="textures/particles/blur/alnitakblur.dds" Alpha="ParticleAge=(v=1;t=0.745,v=0.863;t=1,flags=4)" Color="(x=0.42869052,y=0.9130988,z=0.8713673)" DiffuseLighting="0" EmissiveLighting="1" Size="0.2,Random=0.4,ParticleAge=(v=1;t=0.725,v=0.91;t=0.992,v=0.318)" Stretch="8,Random=0.4,ParticleAge=(v=0.455,flags=32;t=0.667,v=0.5;t=1,v=1)" Speed="0.2" TurbulenceSize="1,Random=1" TurbulenceSpeed="-2.2,Random=0.4" RandomAngles="x=30,y=30,z=30" RotationRate="x=4,y=4,z=4" RandomRotationRate="x=4,y=4,z=4"/>
    </Particles>
   </Childs>
  </Particles>
