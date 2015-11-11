@@ -181,7 +181,7 @@
 			<ps4pad input="pad_square" onHold="1" holdTriggerDelay="0.3" holdRepeatDelay="-1" />
 		</action>
         
-        <action name="defence" onPress="1" keyboard="space" />
+        <action name="defence" onPress="1" keyboard="x" />
         <action name="capture" onPress="1" onHold="1" keyboard="mouse2"/>
         <action name="shiftKey" onPress="1" onRelease="1" keyboard="lshift"/>
         
@@ -194,7 +194,7 @@
 		<action name="moveforward" onPress="1" onRelease="1" retriggerable="1" keyboard="w"/>
 		<action name="moveback" onPress="1" onRelease="1" retriggerable="1" keyboard="s"/>
 		<action name="prone" onPress="1" onHold="1" keyboard="z"/>
-		<action name="jump" onPress="1" onRelease="1" keyboard="x" xboxpad="xi_a" ps4pad="pad_cross"/>
+		<action name="jump" onPress="1" onRelease="1" keyboard="space" xboxpad="xi_a" ps4pad="pad_cross"/>
 		<action name="crouch" onPress="1" onRelease="1" retriggerable="1" keyboard="c" xboxpad="xi_b" ps4pad="pad_circle"/>
 		<action name="sprint" onPress="1" onRelease="1" retriggerable="1" keyboard="tab" xboxpad="xi_thumbl" ps4pad="pad_l3"/>
 		<action name="respawn" onPress="1" onRelease="1" keyboard="mouse1" xboxpad="xi_triggerr_btn" ps4pad="pad_r2"/>
