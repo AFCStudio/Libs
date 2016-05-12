@@ -1,0 +1,29 @@
+<ATLConfig atl_name="g_atl_environments">
+ <AudioEnvironments>
+  <ATLEnvironment atl_name="cave">
+   <WwiseAuxBus wwise_name="cave"/>
+   <WwiseRtpc wwise_name="environment_sound"/>
+  </ATLEnvironment>
+  <ATLEnvironment atl_name="cliff_delays">
+   <WwiseAuxBus wwise_name="cliff_delays"/>
+  </ATLEnvironment>
+  <ATLEnvironment atl_name="forest">
+   <WwiseAuxBus wwise_name="forest"/>
+  </ATLEnvironment>
+  <ATLEnvironment atl_name="hangar">
+   <WwiseAuxBus wwise_name="hangar"/>
+   <WwiseRtpc wwise_name="environment_sound"/>
+  </ATLEnvironment>
+  <ATLEnvironment atl_name="open_ground">
+   <WwiseAuxBus wwise_name="open_ground"/>
+  </ATLEnvironment>
+  <ATLEnvironment atl_name="room_small">
+   <WwiseAuxBus wwise_name="room_small"/>
+   <WwiseRtpc wwise_name="environment_sound"/>
+  </ATLEnvironment>
+  <ATLEnvironment atl_name="tower">
+   <WwiseAuxBus wwise_name="tower"/>
+   <WwiseRtpc wwise_name="environment_sound"/>
+  </ATLEnvironment>
+ </AudioEnvironments>
+</ATLConfig>

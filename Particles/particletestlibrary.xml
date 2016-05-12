@@ -1,0 +1,35 @@
+<ParticleLibrary Name="ParticleTestLibrary" SandboxVersion="3.8.6.53" ParticleVersion="26">
+ <Particles Name="ExampleFire.Fire1">
+  <Params Count="50" Continuous="true" ParticleLifeTime="1,Random=0.4" EmitAngle="20,Random=1" BlendType="Additive" Texture="textures/sprites/fire/large_animated1.dds" TextureTiling="TilesX=8,TilesY=16,AnimFramesCount=105" SoftParticle="true" Alpha="ParticleAge=(;t=0.298,v=1;t=1,flags=4)" DiffuseLighting="0" EmissiveLighting="3" Size="1.4,Random=0.4,ParticleAge=(;t=0.12,v=0.52;t=1,v=1,flags=4)" Stretch="0.2,ParticleAge=(v=1;t=1)" Speed="3,Random=0.4" AirResistance="0.2,Random=0.4" RandomAngles="z=180" RandomRotationRate="z=30"/>
+  <Childs>
+   <Particles Name="Sparks1">
+    <Params Count="120" ParticleLifeTime="0.5,Random=0.5" EmitAngle="30,Random=1" BlendType="Additive" Texture="textures/sprites/sparks/spark_stretched1_tiled2.dds" TextureTiling="TilesX=2,TilesY=2" Alpha="ParticleAge=(v=1;t=0.996,flags=4)" Color="(x=0,y=0,z=0),ParticleAge=(t=0.008,v=(x=0.992,y=0.376,z=0.07);t=0.996,v=(x=0.24,y=0.024))" DiffuseLighting="0" EmissiveLighting="3" Size="0.05,Random=0.5,ParticleAge=(;t=0.827,v=1)" Stretch="0.01" Speed="2,Random=0.5" AirResistance="0.2,Random=0.4,ParticleAge=(;t=0.247,v=0.48,flags=36;t=0.408,v=1,flags=4)" GravityScale="-0.05" Turbulence3DSpeed="0.1,Random=0.5" TurbulenceSpeed="200,Random=0.4" RotationRate="z=20"/>
+   </Particles>
+   <Particles Name="Smoke1">
+    <Params Count="30,Random=1" Continuous="true" EmitAngle="45,Random=1" Texture="textures/sprites/smoke/smoke_white_tiled2.dds" TextureTiling="TilesX=2,TilesY=2,VariantCount=4" Alpha="ParticleAge=(v=1;t=1,flags=4)"/>
+   </Particles>
+   <Particles Name="Haze1">
+    <Params Texture="textures/sprites/fire/flamethrower.dds"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="ExampleFire.FireWorks">
+  <Params EmitAngle="10,Random=0.5" Material="Materials/references/surface_types/test_mat_wood" Geometry="objects/weapons/ammo/rockets/sidewinder/sidewinder.cgf" Size="Random=0.3" Stretch="0.2,Random=0.4" Speed="5" InheritVelocity="0.6" AirResistance="0.2" GravityScale="0.4" Acceleration="z=1.6" RandomAngles="y=180" RandomRotationRate="y=10"/>
+  <Childs>
+   <Particles Name="TrailSparks">
+    <Params SpawnIndirection="ParentDeath" Count="100,Random=0.8,EmitterStrength=(v=1;t=1)" Continuous="true" EmitterLifeTime="3,Random=0.4" ParticleLifeTime="1,Random=0.9,EmitterStrength=(v=1;t=1)" EmitAngle="5,Random=0.5" Texture="textures/sprites/sparks/sparks_multi_tiled.dds" TextureTiling="TilesX=2,TilesY=2,AnimFramesCount=4" Color="EmitterStrength=(t=0.004,v=(x=0.84,y=0.04,z=0.008);t=0.99,v=(x=0.024,y=0.03,z=0.667))" EmissiveLighting="1" Size="0.01,Random=0.6" Stretch="0.02,Random=0.6" Speed="-3,Random=0.6,EmitterStrength=(v=1;t=1,v=0.227)" AirResistance="0.2,Random=0.4" GravityScale="1" RandomAngles="z=180" RandomRotationRate="z=30" PhysicsType="SimpleCollision" CollideTerrain="true" Elasticity="0.2"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="ExampleFireworks.fireworks">
+  <Params Count="1" Continuous="true" SpawnDelay="2,Random=0.7" ParticleLifeTime="4,Random=0.7" EmitAngle="Random=0.5" Facing="Velocity" OrientToVelocity="true" Material="Materials/references/surface_types/test_mat_wood" Geometry="objects/weapons/ammo/rockets/sidewinder/sidewinder.cgf" GeometryPieces="RandomPiece" Size="3,Random=0.3" Stretch="Random=0.4" Speed="16,Random=0.4" InheritVelocity="0.6" AirResistance="0.2" GravityScale="0.02" Acceleration="z=1.6" RandomAngles="y=180" RandomRotationRate="y=10"/>
+  <Childs>
+   <Particles Name="TrailSparks">
+    <Params SpawnIndirection="ParentStart" Count="50,Random=0.8" Continuous="true" EmitterLifeTime="Random=0.4" ParticleLifeTime="2,Random=0.9,EmitterStrength=(v=1;t=1)" EmitAngle="5,Random=0.5" OrientToVelocity="true" BlendType="Additive" Texture="textures/sprites/sparks/sparks_multi_tiled.dds" TextureTiling="TilesX=2,TilesY=2,AnimFramesCount=4" Alpha="ParticleAge=(v=1;t=0.706,v=0.773;t=1)" Color="(x=0.8713673,y=0.8962695,z=0.30946895),EmitterStrength=(t=0.004,v=(x=0.84,y=0.04,z=0.008);t=0.99,v=(x=0.024,y=0.03,z=0.667))" DiffuseLighting="0" EmissiveLighting="3" Size="0.07,Random=0.6" Stretch="0.1,Random=0.6" Speed="-3,Random=0.6,EmitterStrength=(v=1;t=1,v=0.227)" AirResistance="0.2,Random=0.4" GravityScale="1" TurbulenceSpeed="200" RandomAngles="z=180" RandomRotationRate="z=30" PhysicsType="SimpleCollision" CollideTerrain="true" Elasticity="0.2"/>
+   </Particles>
+   <Particles Name="explosion">
+    <Params SpawnIndirection="ParentDeath" Count="3000,Random=0.6" SpawnDelay="Random=0.4" ParticleLifeTime="2,Random=0.6" EmitAngle="180,Random=1" OrientToVelocity="true" BlendType="Additive" Texture="textures/sprites/sparks/sparks_multi_tiled.dds" TextureTiling="TilesX=2,TilesY=2,AnimFramesCount=4" Alpha="Random=0.4,ParticleAge=(v=1;t=0.765,v=0.863;t=1)" Color="Random=1,ParticleAge=(v=(x=0.816,y=0.95,z=0.235);t=0.275,v=(x=0.208,y=0.71,z=0.898);t=0.682,v=(x=0.957,y=0.898,z=0.03);t=0.992,v=(x=0.914,y=0.094,z=0.824))" DiffuseLighting="0" EmissiveLighting="3" Size="Random=0.4" Stretch="Random=0.4" TailLength="0.25,Random=0.4,TailSteps=3" Speed="8,Random=0.6" AirResistance="Random=0.4" TurbulenceSize="0.4" TurbulenceSpeed="200"/>
+   </Particles>
+  </Childs>
+ </Particles>
+</ParticleLibrary>

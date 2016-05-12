@@ -1,0 +1,16 @@
+<ATLConfig atl_name="l_airfield">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_l_airfield_sfx_jet_engine_idle_loop" path="l_airfield_sfx">
+   <WwiseEvent wwise_name="Play_l_airfield_sfx_jet_engine_idle_loop"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_airfield_amb_hangar" path="l_airfield_amb">
+   <WwiseEvent wwise_name="Play_l_airfield_amb_hangar"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_airfield_amb_rain_corridor" path="l_airfield_amb">
+   <WwiseEvent wwise_name="Play_l_airfield_amb_rain_corridor"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_airfield_amb_runway" path="l_airfield_amb">
+   <WwiseEvent wwise_name="Play_l_airfield_amb_runway"/>
+  </ATLTrigger>
+ </AudioTriggers>
+</ATLConfig>

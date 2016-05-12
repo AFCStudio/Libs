@@ -1,0 +1,22 @@
+<ATLConfig atl_name="v_speedboat">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_speedboat_boost">
+   <WwiseEvent wwise_name="Play_v_speedboat_boost"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_speedboat_horn">
+   <WwiseEvent wwise_name="Play_v_speedboat_horn"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_speedboat_run">
+   <WwiseEvent wwise_name="Play_v_speedboat_run"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_speedboat_splash">
+   <WwiseEvent wwise_name="Play_v_speedboat_splash"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_speedboat_start">
+   <WwiseEvent wwise_name="Play_v_speedboat_start"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_speedboat_stop">
+   <WwiseEvent wwise_name="Play_v_speedboat_stop"/>
+  </ATLTrigger>
+ </AudioTriggers>
+</ATLConfig>

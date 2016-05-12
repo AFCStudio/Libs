@@ -1,8 +1,11 @@
-<ParticleLibrary Name="MagicEffects" SandboxVersion="3.8.3.20" ParticleVersion="26">
+<ParticleLibrary Name="MagicEffects" SandboxVersion="3.8.5.14" ParticleVersion="26">
  <Particles Name="Ball.Sparks">
   <Params Count="60" EmitterLifeTime="1" ParticleLifeTime="20" EmitAngle="180,Random=1" OrientToVelocity="true" BlendType="Additive" Texture="textures/particles/blur/second.dds" TextureTiling="TilesX=2,TilesY=2" Color="(x=0.33,y=0.518,z=0.33)" DiffuseLighting="0" EmissiveLighting="3" Size="0.1,Random=0.4" Stretch="0.05,Random=0.4" Speed="0.1,Random=0.4" GravityScale="-0.002,EmitterStrength=(v=1;t=0.176,v=1;t=0.518;t=1),ParticleAge=(v=1;t=0.196,v=1;t=0.486)" TurbulenceSize="1" TurbulenceSpeed="22.4" RandomAngles="x=30,y=30,z=30" RotationRate="x=4,y=4,z=4"/>
  </Particles>
  <Particles Name="Ball.SparkFast">
   <Params Count="120" EmitterLifeTime="1" ParticleLifeTime="20" RemainWhileVisible="true" EmitAngle="180,Random=1" OrientToVelocity="true" BlendType="Additive" Texture="textures/particles/blur/second.dds" TextureTiling="TilesX=2,TilesY=2" Color="(x=0.33,y=0.518,z=0.33),ParticleAge=(v=(x=0.08,y=0.667,z=0.498);t=0.153,v=(x=0.85,y=0.94,z=0.255);t=0.216,v=(x=0.882,y=0.047,z=0.443))" EmissiveLighting="6" Size="0.1,Random=0.4" Stretch="0.05,Random=0.4" Speed="1,Random=0.4" GravityScale="0.008,Random=0.2,EmitterStrength=(v=0.34,flags=32;t=0.514,v=1;t=1,v=1),ParticleAge=(v=0.227,flags=32;t=0.494,v=0.84;t=1,v=1)" TurbulenceSize="4" TurbulenceSpeed="22.4" RandomAngles="x=30,y=30,z=30" RotationRate="x=4,y=4,z=4" PhysicsType="SimpleCollision" CollideTerrain="true" CollideStaticObjects="true" ViewDistanceAdjust="4"/>
+ </Particles>
+ <Particles Name="MagicArrow">
+  <Params Count="1" Continuous="true" ParticleLifeTime="4" Facing="Free" OrientToVelocity="true" Material="Objects/Weapons/Bows/ranger_arrow_magic" Geometry="objects/weapons/bows/ranger_arrow.cgf" Alpha="ParticleAge=(;t=0.675,v=1;t=1,v=1)" EmissiveLighting="4" LightSource="Radius=4,Intensity=(2,ParticleAge=(;t=1,v=1))" InitAngles="x=90"/>
  </Particles>
 </ParticleLibrary>

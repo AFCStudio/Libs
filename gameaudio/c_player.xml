@@ -1,0 +1,161 @@
+<ATLConfig atl_name="c_player">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_c_player_fol_bodyfall" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_bodyfall"/>
+   <SDLMixerEvent event_id="3" sdl_name="c_player_foley_land.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="25" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_bag_movement" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_bag_movement"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_climb_ladder" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_climb_ladder"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_bush_movement" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_bush_movement"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_crouch_on" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_crouch_on"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_dive_out" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_dive_out"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_dive_in" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_dive_in"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_crouch_off" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_crouch_off"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_gear" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_gear"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_jump_off" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_jump_off"/>
+   <SDLMixerEvent event_id="4" sdl_name="c_player_fol_gear.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-20" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_bodyhit" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_bodyhit"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_slide_bodyfall" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_slide_bodyfall"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_slide_gear" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_slide_gear"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_jump_on" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_jump_on"/>
+   <SDLMixerEvent event_id="5" sdl_name="c_player_fol_gear.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="20" volume="-30" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_throw_generic" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_throw_generic"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_turn" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_turn"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_slide_loop" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_slide_loop"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_slide_start" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_slide_start"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_slide_stop" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_slide_stop"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_gear_fast" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_gear_fast"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_gear_medium" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_gear_medium"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_gear_slow" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_gear_slow"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_grab_generic" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_grab_generic"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_swim" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_swim"/>
+   <SDLMixerEvent event_id="6" sdl_name="c_player_fol_swim.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="25" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_swim_idle" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_swim_idle"/>
+   <SDLMixerEvent event_id="7" sdl_name="c_player_fol_swim.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="25" volume="-24" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fol_swim_sprint" path="c_player_fol">
+   <WwiseEvent wwise_name="Play_c_player_fol_swim_sprint"/>
+   <SDLMixerEvent event_id="8" sdl_name="c_player_fol_swim.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="25" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fbk_effect_health_low" path="c_player_fbk">
+   <WwiseEvent wwise_name="Play_c_player_fbk_effect_health_low"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_c_player_fbk_effect_health_low" path="c_player_fbk">
+   <WwiseEvent wwise_name="Stop_c_player_fbk_effect_health_low"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_c_player_fbk_effect_focus" path="c_player_fbk">
+   <WwiseEvent wwise_name="Stop_c_player_fbk_effect_focus"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fbk_effect_focus" path="c_player_fbk">
+   <WwiseEvent wwise_name="Play_c_player_fbk_effect_focus"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fbk_breath_idle" path="c_player_fbk">
+   <WwiseEvent wwise_name="Play_c_player_fbk_breath_idle"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fbk_breath_focus" path="c_player_fbk">
+   <WwiseEvent wwise_name="Play_c_player_fbk_breath_focus"/>
+   <SDLMixerEvent event_id="9" sdl_name="do_nothing.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fbk_breath_run" path="c_player_fbk">
+   <WwiseEvent wwise_name="Play_c_player_fbk_breath_run"/>
+   <SDLMixerEvent event_id="10" sdl_name="do_nothing.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fbk_breath_swim" path="c_player_fbk">
+   <WwiseEvent wwise_name="Play_c_player_fbk_breath_swim"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_c_player_fbk_breath_run" path="c_player_fbk">
+   <WwiseEvent wwise_name="Stop_c_player_fbk_breath_run"/>
+   <SDLMixerEvent event_id="11" sdl_name="do_nothing.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_c_player_fbk_breath_swim" path="c_player_fbk">
+   <WwiseEvent wwise_name="Stop_c_player_fbk_breath_swim"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_c_player_fbk_breath_idle" path="c_player_fbk">
+   <WwiseEvent wwise_name="Stop_c_player_fbk_breath_idle"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_c_player_fbk_breath_focus" path="c_player_fbk">
+   <WwiseEvent wwise_name="Stop_c_player_fbk_breath_focus"/>
+   <SDLMixerEvent event_id="12" sdl_name="do_nothing.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fbk_breath_low_health" path="c_player_fbk">
+   <WwiseEvent wwise_name="Play_c_player_fbk_breath_low_health"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fbk_death" path="c_player_fbk">
+   <WwiseEvent wwise_name="Play_c_player_fbk_death"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fbk_effect_heartbeat" path="c_player_fbk">
+   <WwiseEvent wwise_name="Play_c_player_fbk_effect_heartbeat"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fbk_effort" path="c_player_fbk">
+   <WwiseEvent wwise_name="Play_c_player_fbk_effort"/>
+   <SDLMixerEvent event_id="13" sdl_name="do_nothing.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fbk_jump" path="c_player_fbk">
+   <WwiseEvent wwise_name="Play_c_player_fbk_jump"/>
+   <SDLMixerEvent event_id="14" sdl_name="do_nothing.ogg" event_type="start" enable_panning="true" enable_distance_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fbk_melee" path="c_player_fbk">
+   <WwiseEvent wwise_name="Play_c_player_fbk_melee"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fbk_pain" path="c_player_fbk">
+   <WwiseEvent wwise_name="Play_c_player_fbk_pain"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fbk_throw" path="c_player_fbk">
+   <WwiseEvent wwise_name="Play_c_player_fbk_throw"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fbk_land" path="c_player_fbk">
+   <WwiseEvent wwise_name="Play_c_player_fbk_land"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_c_player_fts">
+   <WwiseEvent wwise_name="Play_c_player_fts"/>
+   <SDLMixerEvent event_id="15" sdl_name="c_player_fts_concrete_walk.ogg" event_type="start" enable_panning="false" enable_distance_attenuation="false" attenuation_dist_min="0" attenuation_dist_max="100" volume="-14" loop_count="1"/>
+  </ATLTrigger>
+ </AudioTriggers>
+</ATLConfig>

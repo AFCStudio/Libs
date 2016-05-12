@@ -1,0 +1,58 @@
+<ATLConfig atl_name="l_vr_demo">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_l_vr_demo_sce_door_closed">
+   <WwiseEvent wwise_name="Play_l_vr_demo_sce_door_closed"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_vr_demo_sce_door_opened">
+   <WwiseEvent wwise_name="Play_l_vr_demo_sce_door_opened"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_vr_demo_sfx_energy_sphere">
+   <WwiseEvent wwise_name="Play_l_vr_demo_sfx_energy_sphere"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_vr_demo_sfx_power_sparks">
+   <WwiseEvent wwise_name="Play_l_vr_demo_sfx_power_sparks"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_vr_demo_sfx_ventilation_fan">
+   <WwiseEvent wwise_name="Play_l_vr_demo_sfx_ventilation_fan"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_vr_demo_sfx_growing_chamber">
+   <WwiseEvent wwise_name="Play_l_vr_demo_sfx_growing_chamber"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_vr_demo_sfx_energy_fx_03">
+   <WwiseEvent wwise_name="Play_l_vr_demo_sfx_energy_fx_03"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_vr_demo_sfx_energy_fx_02">
+   <WwiseEvent wwise_name="Play_l_vr_demo_sfx_energy_fx_02"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_vr_demo_sfx_energy_fx_01">
+   <WwiseEvent wwise_name="Play_l_vr_demo_sfx_energy_fx_01"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_vr_demo_sce_door_open">
+   <WwiseEvent wwise_name="Play_l_vr_demo_sce_door_open"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_vr_demo_sce_door_close">
+   <WwiseEvent wwise_name="Play_l_vr_demo_sce_door_close"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_vr_demo_amb_hallway">
+   <WwiseEvent wwise_name="Play_l_vr_demo_amb_hallway"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_l_vr_demo_amb_room_01">
+   <WwiseEvent wwise_name="Play_l_vr_demo_amb_room_01"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <AudioPreloads>
+  <ATLPreloadRequest atl_name="l_vr_demo" atl_type="AutoLoad">
+   <ATLPlatforms>
+    <Platform atl_name="pc" atl_config_group_name="default"/>
+    <Platform atl_name="ps4" atl_config_group_name="default"/>
+    <Platform atl_name="xboxone" atl_config_group_name="default"/>
+    <Platform atl_name="mac" atl_config_group_name="default"/>
+    <Platform atl_name="linux" atl_config_group_name="default"/>
+   </ATLPlatforms>
+   <ATLConfigGroup atl_name="default">
+    <WwiseFile wwise_name="l_vr_demo_a.bnk"/>
+    <WwiseFile wwise_name="l_vr_demo_d.bnk"/>
+   </ATLConfigGroup>
+  </ATLPreloadRequest>
+ </AudioPreloads>
+</ATLConfig>

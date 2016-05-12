@@ -1,0 +1,76 @@
+<ATLConfig atl_name="g_atl_rtpcs">
+ <AudioRTPCs>
+  <ATLRtpc atl_name="character_health" path="character">
+   <WwiseRtpc wwise_name="character_health"/>
+  </ATLRtpc>
+  <ATLRtpc atl_name="character_stamina" path="character">
+   <WwiseRtpc wwise_name="character_stamina"/>
+  </ATLRtpc>
+  <ATLRtpc atl_name="area_fade_distance" path="environment">
+   <WwiseRtpc wwise_name="area_fade_distance"/>
+  </ATLRtpc>
+  <ATLRtpc atl_name="environment_listener" path="environment">
+   <WwiseRtpc wwise_name="environment_listener"/>
+  </ATLRtpc>
+  <ATLRtpc atl_name="environment_sound" path="environment">
+   <WwiseRtpc wwise_name="environment_sound"/>
+  </ATLRtpc>
+  <ATLRtpc atl_name="time_of_day" path="environment">
+   <WwiseRtpc wwise_name="time_of_day"/>
+  </ATLRtpc>
+  <ATLRtpc atl_name="volume_music" path="menu">
+   <WwiseRtpc wwise_name="volume_music"/>
+  </ATLRtpc>
+  <ATLRtpc atl_name="volume_sfx" path="menu">
+   <WwiseRtpc wwise_name="volume_sfx"/>
+  </ATLRtpc>
+  <ATLRtpc atl_name="speed" path="physics">
+   <WwiseRtpc wwise_name="speed"/>
+  </ATLRtpc>
+  <ATLRtpc atl_name="mass" path="physics">
+   <WwiseRtpc wwise_name="mass"/>
+  </ATLRtpc>
+  <ATLRtpc atl_name="object_sliding" path="physics">
+   <WwiseRtpc wwise_name="object_sliding"/>
+  </ATLRtpc>
+  <ATLRtpc atl_name="object_rolling" path="physics">
+   <WwiseRtpc wwise_name="object_rolling"/>
+  </ATLRtpc>
+  <ATLRtpc atl_name="object_speed" path="physics">
+   <WwiseRtpc wwise_name="object_speed"/>
+  </ATLRtpc>
+  <ATLRtpc atl_name="particlefx" path="physics">
+   <WwiseRtpc wwise_name="particlefx"/>
+  </ATLRtpc>
+  <ATLRtpc atl_name="mm_vegetation_density" path="vegetation">
+   <WwiseRtpc wwise_name="mm_vegetation_density"/>
+  </ATLRtpc>
+  <ATLRtpc atl_name="mm_grass_density" path="vegetation">
+   <WwiseRtpc wwise_name="mm_grass_density"/>
+  </ATLRtpc>
+  <ATLRtpc atl_name="mm_default_density" path="vegetation">
+   <WwiseRtpc wwise_name="mm_default_density"/>
+  </ATLRtpc>
+  <ATLRtpc atl_name="vehicle_rotation_speed" path="vehicles">
+   <WwiseRtpc wwise_name="v_rotation_speed"/>
+  </ATLRtpc>
+  <ATLRtpc atl_name="vehicle_damage" path="vehicles">
+   <WwiseRtpc wwise_name="v_damage"/>
+  </ATLRtpc>
+  <ATLRtpc atl_name="vehicle_rpm" path="vehicles">
+   <WwiseRtpc wwise_name="v_rpm"/>
+  </ATLRtpc>
+  <ATLRtpc atl_name="vehicle_scratch" path="vehicles">
+   <WwiseRtpc wwise_name="v_scratch"/>
+  </ATLRtpc>
+  <ATLRtpc atl_name="vehicle_slip" path="vehicles">
+   <WwiseRtpc wwise_name="v_slip"/>
+  </ATLRtpc>
+  <ATLRtpc atl_name="vehicle_speed" path="vehicles">
+   <WwiseRtpc wwise_name="v_speed"/>
+  </ATLRtpc>
+  <ATLRtpc atl_name="vehicle_stroke" path="vehicles">
+   <WwiseRtpc wwise_name="v_stroke"/>
+  </ATLRtpc>
+ </AudioRTPCs>
+</ATLConfig>

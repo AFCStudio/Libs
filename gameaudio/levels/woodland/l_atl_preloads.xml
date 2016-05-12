@@ -1,0 +1,18 @@
+<ATLConfig atl_name="l_atl_preloads">
+ <AudioPreloads>
+  <ATLPreloadRequest atl_name="l_woodland" atl_type="AutoLoad">
+   <ATLPlatforms>
+    <Platform atl_name="pc" atl_config_group_name="default"/>
+    <Platform atl_name="ps4" atl_config_group_name="default"/>
+    <Platform atl_name="xboxone" atl_config_group_name="default"/>
+    <Platform atl_name="mac" atl_config_group_name="default"/>
+    <Platform atl_name="linux" atl_config_group_name="default"/>
+   </ATLPlatforms>
+   <ATLConfigGroup atl_name="default">
+    <WwiseFile wwise_name="l_woodland_a.bnk"/>
+    <WwiseFile wwise_name="l_woodland_d.bnk"/>
+    <WwiseFile wwise_name="cr_openground_ad.bnk"/>
+   </ATLConfigGroup>
+  </ATLPreloadRequest>
+ </AudioPreloads>
+</ATLConfig>
