@@ -16,5 +16,6 @@
   <Ammo name="smokegrenade" amount="0"/>
   <Ammo name="Arrow" amount="0"/>
   <Ammo name="MagicBall" amount="0"/>
+  <Ammo name="RifleBullet" amount="0"/>
  </Ammos>
 </EquipPack>

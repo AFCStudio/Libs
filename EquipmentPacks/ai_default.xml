@@ -1,4 +1,4 @@
-<EquipPack name="OnlySword" primary="Sword_East_Roman_01">
+<EquipPack name="AI_Default" primary="Sword_East_Roman_01">
  <Items>
   <Sword_East_Roman_01 type="ItemGivable" setup=""/>
  </Items>

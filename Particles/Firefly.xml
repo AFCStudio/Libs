@@ -1,8 +1,8 @@
-<ParticleLibrary Name="Firefly" SandboxVersion="3.5.8.2310" ParticleVersion="24">
+<ParticleLibrary Name="Firefly" SandboxVersion="3.8.6.53" ParticleVersion="26">
  <Particles Name="Firefly01">
-  <Params Count="60" Continuous="true" ParticleLifeTime="20,Random=0.4" RandomOffset="x=8,y=8,z=8" EmitAngle="180,Random=1" OrientToVelocity="true" BlendType="Additive" Texture="textures/mask/gradient_circleoutside_mask.dds" Alpha="0.61" Color="(x=0.61,y=0.867,z=0.318),ParticleAge=(t=0.004,v=(x=0.345,y=0.882,z=0.21);t=0.99,v=(x=0.4,y=0.827,z=0.3))" DiffuseLighting="3" EmissiveLighting="4" Size="0.07,Random=0.4" Stretch="0.1,Random=0.4" Speed="0.05" AirResistance="0.01" GravityScale="0.01" TurbulenceSize="2.47" TurbulenceSpeed="29.6" RandomAngles="x=30,y=30,z=30" RotationRate="x=4,y=4,z=4" CollideTerrain="true" CollideStaticObjects="true"/>
+  <Params Count="60" Continuous="true" ParticleLifeTime="20,Random=0.4" RandomOffset="x=8,y=8,z=8" EmitAngle="180,Random=1" OrientToVelocity="true" BlendType="Additive" Texture="textures/mask/gradient_circleoutside_mask_colored.dds" Alpha="0.61" Color="(x=0.6038275,y=0.86315733,z=0.31398875),ParticleAge=(t=0.004,v=(x=0.345,y=0.882,z=0.21);t=0.99,v=(x=0.4,y=0.827,z=0.3))" DiffuseLighting="3" EmissiveLighting="4" Size="0.07,Random=0.4" Stretch="0.1,Random=0.4" Speed="0.05" AirResistance="0.01" GravityScale="0.01" TurbulenceSize="2.47" TurbulenceSpeed="29.6" RandomAngles="x=30,y=30,z=30" RotationRate="x=4,y=4,z=4" CollideTerrain="true" CollideStaticObjects="true"/>
  </Particles>
  <Particles Name="Firefly02">
-  <Params Count="60,Random=0.4" Continuous="true" ParticleLifeTime="20,Random=0.4" BlendType="Additive" Texture="textures/particles/radialgradient.dds"/>
+  <Params Count="60,Random=0.4" Continuous="true" ParticleLifeTime="20,Random=0.4" BlendType="Additive" Texture="textures/mask/gradient_circleoutside_mask.dds"/>
  </Particles>
 </ParticleLibrary>
